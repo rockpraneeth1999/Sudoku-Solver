@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family:myFont;
+  src: url("digital-7.regular.ttf");
+}
+
+
+body {
+  background-color: #222;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div span {
+  margin: 2% auto;
+  padding: 1%;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border: 0.2rem solid white;
+  font-size: larger;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+main {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.row input {
+  margin: 2px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.table {
+  height: 33rem;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table section {
+  display: flex;
+}
+
+.solve {
+  height: 2.5rem;
+  width: auto;
+  font-family: myFont;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: solid;
+  /* width: 10rem; */
+  width: auto;
+  padding: 5px;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.solve:hover {
+  background-color: #222;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.row00,
+.row01,
+.row02,
+.row06,
+.row07,
+.row08,
+.row10,
+.row11,
+.row12,
+.row16,
+.row17,
+.row18,
+.row20,
+.row21,
+.row22,
+.row26,
+.row27,
+.row28,
+.row33,
+.row34,
+.row35,
+.row43,
+.row44,
+.row45,
+.row53,
+.row54,
+.row55,
+.row60,
+.row61,
+.row62,
+.row66,
+.row67,
+.row68,
+.row70,
+.row71,
+.row72,
+.row76,
+.row77,
+.row78,
+.row80,
+.row81,
+.row82,
+.row86,
+.row87,
+.row88 {
+  background-color: black;
+  color: white;
+}
+
+input[type=number]{
+  min:"1";
+  max:"9";
+  font-family: myFont;
+  font-size: 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.heading{
+  font-family: myFont;
+  font-size: 2rem;
+
+}
